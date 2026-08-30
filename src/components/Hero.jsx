@@ -33,7 +33,7 @@ function Hero() {
                 transition: { duration: 0.6, ease: "easeOut" },
               },
             }}
-            className="mb-7 flex items-center gap-2.5 text-xs font-medium uppercase tracking-[0.18em] text-emerald-600 sm:text-sm"
+            className="mb-7 flex items-center justify-center gap-2.5 text-xs font-medium uppercase tracking-[0.18em] text-emerald-600 sm:text-sm"
           >
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60" />
@@ -52,7 +52,7 @@ function Hero() {
                 transition: { duration: 0.7, ease: "easeOut" },
               },
             }}
-            className="text-[clamp(2.8rem,8vw,4.1rem)] font-semibold leading-[1.05] tracking-[-0.055em] text-zinc-900"
+            className="text-[clamp(2.8rem,8vw,4.1rem)] text-center sm:text-left  font-semibold leading-[1.05] tracking-[-0.055em] text-zinc-900"
           >
             Digital products
             <br />
@@ -71,7 +71,7 @@ function Hero() {
                 transition: { duration: 0.6, ease: "easeOut" },
               },
             }}
-            className="mt-7 max-w-xl text-base leading-7 text-zinc-500 sm:mt-8 sm:text-base sm:leading-8"
+            className="mt-7 max-w-xl text-center sm:text-left text-base leading-7 text-zinc-500 sm:mt-8 sm:text-base sm:leading-8"
           >
             I&apos;m Siwam, a full-stack developer turning complex ideas into
             clear, useful, and quietly delightful experiences.
@@ -87,7 +87,7 @@ function Hero() {
                 transition: { duration: 0.6, ease: "easeOut" },
               },
             }}
-            className="mt-8 flex flex-col items-start gap-5 sm:mt-10 sm:flex-row sm:items-center sm:gap-7"
+            className="mt-8 flex flex-col items-center gap-5 sm:mt-10 sm:flex-row sm:items-center sm:gap-7"
           >
             {/* Primary CTA */}
             <motion.a

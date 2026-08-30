@@ -86,7 +86,7 @@ function Projects() {
             >
               {/* Project preview */}
               <div className="relative overflow-hidden rounded-2xl bg-zinc-100 sm:rounded-3xl">
-                <div className="relative aspect-[3/5] overflow-hidden sm:aspect-[16/8]">
+                <div className="relative aspect-[16/10] overflow-hidden sm:aspect-[16/8]">
                     
                     <img
                       src={project.image}
