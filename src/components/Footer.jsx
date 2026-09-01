@@ -10,19 +10,19 @@ function Footer() {
   const socials = [
     {
       name: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "http://github.com/siwamsingh",
       icon: FiGithub,
       color: "#181717",
     },
     {
       name: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/siwam-singh-029825286",
       icon: FiLinkedin,
       color: "#0A66C2",
     },
     {
       name: "Email",
-      href: "mailto:hello@siwam.dev",
+      href: "mailto:siwamgamezone@gmail.com",
       icon: FiMail,
       color: "#059669",
     },

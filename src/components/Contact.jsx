@@ -38,11 +38,11 @@ function Contact() {
           </p>
 
           <motion.a
-            href="mailto:hello@siwam.dev"
+            href="mailto:siwamgamezone@gmail.com"
             whileHover={{ x: 5 }}
             className="group mt-7 flex w-fit items-center gap-2 border-b border-emerald-300 pb-2 text-sm font-medium text-emerald-700 transition-colors hover:border-emerald-600 hover:text-emerald-800 sm:mt-9 sm:text-base"
           >
-            hello@siwam.dev
+            siwamgamezone@gmail.com
 
             <FiArrowUpRight
               size={17}
